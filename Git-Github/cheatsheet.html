@@ -1,0 +1,29 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos más utilizados hasta el momento</title>
+</head>
+<body style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"">
+    <h1>Comandos más utilizados hasta el momento</h1>
+    <ul>
+        <li><strong>git init</strong>: Permite crear un repositorio local</li>
+        <li><strong>git status</strong>: Permite ver el estado de los archivos. Sin traza, agregados, modificados o eliminados</li>
+        <li><strong>git add {nombre archivo}</strong>: Permite agregar archivos al staging area</li>
+        <li><strong>git add .</strong>: Agrega todos los cambios de los archivos al staging area desde donde está posicionado la carpeta</li>
+        <li><strong>git commit -m</strong>: Permite subir los archivos que están en el staging area a la rama actual (seleccionada)</li>
+        <li><strong>git log --oneline</strong>: Muestra los commits, su descripción y donde está el puntero (HEAD)</li>
+        <li><strong>git remote add origin {URL github}</strong>: Relaciona su repositorio remoto de destino desde el repositorio local</li>
+        <li><strong>git remote -v</strong>: Permite visualizar si hay un repositorio remoto enlazado</li>
+        <li><strong>git push origin {nombre branch}</strong>: Sube los cambios o los commits que tenga al repositorio remoto</li>
+        <li><strong>git config user.name {username}</strong>: Configure el username</li>
+        <li><strong>git config user.email {email}</strong>: Configure el email asociado a cuenta de github, hacia donde subirá los cambios </li>
+        <li><strong>git config credential.username {username}</strong>: Configure credenciales de github con las que subirá los cambios del repositorio local hacia el repositorio remoto</li>
+        <li><strong>git diff {#commit anterior} {#commit más reciente}</strong>: Muestra las diferencias cambios realizados en cada commit</li>
+        <li><strong>git branch {nombre rama}</strong>: Permite crear un branch en el repositorio local</li>
+        <li><strong>git checkout {nombre rama}</strong>: Permite seleccionar esa rama como rama activa de trabajo</li>
+        <li><strong>git merge {nombre rama}</strong>: Selecciona esa rama para fusionar los cambios de esa rama a la rama activa</li>
+    </ul>
+</body>
+</html>
