@@ -25,6 +25,11 @@
         <li><strong>git checkout {nombre rama}</strong>: Permite seleccionar esa rama como rama activa de trabajo</li>
         <li><strong>git merge {nombre rama}</strong>: Selecciona esa rama para fusionar los cambios de esa rama a la rama activa</li>
         <li><strong>git clone {URL repositorio github}</strong>: Clona el repositorio remoto creando el repositorio local bajando los cambios de la rama activa en el remoto</li>
+        <li><strong>git pull</strong>: Descarga los cambios que existen en el repositorio remoto, o git pull origin {branch}</li>
+        <li><strong>git config --global credential.helper store</strong>: Configurar token github como contraseña global</li>
+        <li><strong>git config --global credential.{url}.username {token}</strong>: Agregar token como contraseña global</li>
+        <li><strong>git config --global credential.github.com.username {token}</strong>: Utilizar token todos los repositorios github</li>
+        <li><strong>git config --global --unset credential.{url}.username</strong>: Eliminar entrada del token de la configuración global</li>
     </ul>
 </body>
 </html>
