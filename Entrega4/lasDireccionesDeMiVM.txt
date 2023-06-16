@@ -1,0 +1,7 @@
+ip privada = inet:10.0.2.15 
+MAC = HW 08:00:27:63:26:92  
+ip publica = 190.XX.XX.XX
+
+La IP publica si es igual al de la maquina host.
+La IP privada no, ella si es diferente.
+
