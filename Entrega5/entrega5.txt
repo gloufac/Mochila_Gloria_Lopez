@@ -1,0 +1,5 @@
+Procedimiento para ingresar
+1. Ingresar con SSH ubuntu-cli-gl@192.168.0.3 de la maquina virtual
+2. Ingresar contraseña
+3. Ya tenía previamente mapeado github a la maquina virtual
+4. Ingresar al repo modificar archivo 5 y ya.
